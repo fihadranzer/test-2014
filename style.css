@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f5f3f4;
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    background-color:#caf0f8 ;
+    max-width: 1000px;
+    margin:0 auto;
+    padding: 20px;
+    
+}
+
+.picture{
+    height: 120px;
+    width: 120px;
+    border: 3px white solid;
+    border-radius: 50%;
+    float: left;
+    
+}
+
+.title{
+    padding: 30px;
+    float: left;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: teal;
+}
+
+.contact-header{
+    float: right;
+    padding: 30px;
+}
+
+
+.contact-header a{
+
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+
+}
+
+.contact-header a:hover{
+
+    text-decoration: underline;
+    color:tomato ;
+
+}
+
+.clear-div{
+    clear: both;
+}
+
+hr{
+    border: 3px solid black;
+    margin: 20px auto;
+    width: 100%;
+    border-bottom: none;
+
+}
+
+#personal-section{
+
+}
+
+.content{
+    margin-bottom: 30px;
+
+}
+
+.div-left{
+    width: 30%;
+    float: left;
+
+}
+
+.div-right{
+    width: 70%;
+    float: left;
+}
+
+.custome-hr{
+
+    border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+
+}
+
+
+.edu-div-left{
+
+    width: 45%;
+    float: left;
+
+}
+
+.edu-div-right{
+    width: 45%;
+    float: right;
+
+}
+
+#education-section .content a{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+
+}
+
+#education-section .content a:hover{
+    color: green;
+}
+
+.footer-content{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-content a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+.footer-content p{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
